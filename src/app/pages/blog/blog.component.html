@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-lg-9 x-3 px-lg-5">
+            <h5>Latest Blogs</h5>
+            <form action="">
+                <div class="input-group mb-3">
+                    <span class="input-group-text border-0 bg-white" id="basic-addon1"><i
+                            class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="border-start-0 ps-0 form-control form-control-lg"
+                        placeholder="Search blogs, topics and more">
+                </div>
+            </form>
+            <div class="">
+                <app-posts class="row"
+                    [colClass]="['col-12 col-md-4 col-lg-3 mt-3 d-flex justify-content-center']"></app-posts>
+            </div>
+        </div>
+        <div class="col-12 col-lg-3">
+
+        </div>
+    </div>
+</div>

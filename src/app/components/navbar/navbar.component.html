@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center justify-content-start" href="#" [routerLink]="['']">
+            <img src="/assets/images/logo.png" width="60">
+            <p class="m-0 ps-2">Writer Bot</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex align-items-center justify-content-end"
+            id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" [routerLink]="['']" routerLinkActive="active">Home</a>
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link" href="#" [routerLink]="['/blog']" routerLinkActive="active">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-light px-2 py-1 my-1 animate__bounceIn" href="#" [routerLink]="['/login']"
+                        routerLinkActive="active">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

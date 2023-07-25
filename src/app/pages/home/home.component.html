@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row gx-3">
+        <div class="col-12 col-lg-9">
+            <div class="bg-image h-100 rounded-3 p-5" style="background-image: url('/assets/images/bg-image.jpg');">
+                <h2>Sample Title 1</h2>
+                <p>Date: July 26, 2023</p>
+                <small class="fw-bold">Category: Technology</small>
+            </div>
+        </div>
+        <div class="col-12 col-lg-3 mt-3 mt-lg-0">
+            <div class="bg-image rounded-3 p-5" style="background-image: url('/assets/images/bg-ad.jpg');">
+                <h2>Ad Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, obcaecati.</p>
+            </div>
+            <div class="bg-image rounded-3 p-5 mt-3" style="background-image: url('/assets/images/bg-image-2.jpg');">
+                <h2>Sample Title 3</h2>
+                <p>Date: July 28, 2023</p>
+                <small class="fw-bold">Category: Food</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-3">
+    <div class="d-flex align-items-center justify-content-between mb-3 p-3">
+        <h2 class="m-0 fw-bold text-warning">Popular Posts</h2>
+        <a href="#" [routerLink]="['/blog']" class="btn btn-outline-light">View All <i
+                class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="row">
+        <app-posts class="row"
+            colClass="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center mb-3 mb-lg-0">
+        </app-posts>
+    </div>
+</div>
